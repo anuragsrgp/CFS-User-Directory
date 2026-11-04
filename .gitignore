@@ -1,0 +1,46 @@
+
+# Node.js dependencies
+frontend/node_modules/
+
+# React build output
+frontend/dist/
+
+# .NET build output
+backend/**/bin/
+backend/**/obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database files
+*.db-shm
+*.db-wal
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Root-level Node.js dependencies and runtime
+/node_modules/
+/node.exe
+/nodevars.bat
+/npm
+/npm.cmd
+/npm.ps1
+/npx
+/npx.cmd
+/npx.ps1
+
+# Temporary permission test
+/permission_test.txt
